@@ -320,3 +320,26 @@ hr {
   color: #fff200 !important;
   text-shadow: 0 4px 16px #daa52099, 0 1px 0 #fff;
 }
+
+/* Hover effect for icons in the "Como é o nosso Espaço?" section */
+.espaco-card i {
+  transition: transform 0.25s, filter 0.25s, color 0.25s;
+}
+
+.espaco-card:hover i {
+  transform: scale(1.18) rotate(-8deg);
+  filter: drop-shadow(0 0 8px #daa520cc);
+  color: #ffd700 !important;
+}
+
+/* Hover effect for the entire card in the "Como é o nosso Espaço?" section */
+.espaco-card {
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.espaco-card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 6px 32px 0 rgba(218, 165, 32, 0.25), 0 1.5px 8px 0 rgba(0,0,0,0.18);
+  border-color: #ffd700;
+  cursor: pointer;
+}
