@@ -14,7 +14,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 
   <style>
-    /* Classe simples para efeito de escala */
+    
     .scale-up {
       transform: scale(1.05);
     }
@@ -66,33 +66,33 @@
 
           <ul class="navbar-nav d-none d-lg-flex gap-5">
             <li class="nav-item">
-              <a class="nav-link" href="#Inicio">Início</a>
+              <a class="nav-link" href="#Inicio">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#SobreNos">Sobre Nós</a>
+              <a class="nav-link" href="#SobreNos">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Espaco">Espaço</a>
+              <a class="nav-link" href="#Espaco">Area</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#Localizacao">Localização</a>
+              <a class="nav-link" href="#Localizacao">Locations</a>
             </li>
           </ul>
 
           <ul class="navbar-nav d-lg-none flex-column gap-2">
             <li class="nav-item">
-              <a class="nav-link" href="#Inicio">Início</a>
+              <a class="nav-link" href="#Inicio">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#SobreNos">Sobre Nós</a>
+              <a class="nav-link" href="#SobreNos">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Espaco">Espaço</a>
+              <a class="nav-link" href="#Espaco">Area</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#Localizacao">Localização</a>
+              <a class="nav-link" href="#Localizacao">Locations</a>
             </li>
           </ul>
 
@@ -102,7 +102,7 @@
               Login
             </a>
             <a href="cadastro.php" class="btn btn-warning fw-bold text-dark btn-lg">
-              Cadastro
+              Register
             </a>
           </div>
         </div>
@@ -114,7 +114,7 @@
           Login
         </a>
         <a href="cadastro.php" class="btn btn-warning fw-bold text-dark px-3">
-          Cadastro
+          Register
         </a>
       </div>
     </div>
@@ -122,10 +122,10 @@
 
 
 
-  <a href="login.php" class="botao_agen"><span>Marque já seu horário</span></a>
+  <a href="login.php" class="botao_agen"><span>Schedule your appointment</span></a>
   <div class="container" style="background-image: url(imagens/Fundo.jpeg);" id="Inicio">
     <h1 class="title scroll-anim">Bespoke BarberShop</h1>
-    <p class="subtitle scroll-anim">A barbearia pensada para o seu conforto.</p>
+    <p class="subtitle scroll-anim">The barbershop designed for you confort</p>
     <div class="divider"></div>
   </div>
 
@@ -138,41 +138,41 @@
       <div class="p-5 rounded-4" style="background: transparent;">
         <h1 class="fw-bold mb-2 text-center"
           style="font-family: 'Yellowtail', cursive; font-size: 4rem; color: #daa520; letter-spacing: 3px;">
-          Nós Somos Bespoke
+          We are Bespoke
         </h1>
         <div class="mx-auto mb-4" style="height:3px; width:600px; background:#daa520; border-radius:4px;"></div>
         <p class="fs-2 text-white text-center mb-5"
           style="font-family: 'Arapey', serif; max-width: 900px; margin: 0 auto; opacity: 0.97;">
-          Mais do que uma barbearia, somos uma experiência feita sob medida para você.<br>
-          Atendimento exclusivo, ambiente sofisticado e profissionais que entendem o seu estilo.
+          More than just a barbershop, we are a tailor-made experience for you.<br>
+          Exclusive service, sophisticated atmosphere, and professionals who understand your style.
         </p>
         <div class="row text-center justify-content-center g-4">
           <div class="col-6 col-md-3">
             <div class="p-3">
               <i class="fa-solid fa-user-tie mb-3 diferencial-icone" style="color:#daa520; font-size:3.2rem;"></i>
-              <div class="fw-semibold text-white" style="font-size:1.25rem;">Atendimento Premium</div>
-              <div class="text-secondary" style="font-size:1rem;">Foco total em você</div>
+              <div class="fw-semibold text-white" style="font-size:1.25rem;">Premium service </div>
+              <div class="text-secondary" style="font-size:1rem;">Total focus on you</div>
             </div>
           </div>
           <div class="col-6 col-md-3">
             <div class="p-3">
               <i class="fa-solid fa-scissors mb-3 diferencial-icone" style="color:#daa520; font-size:3.2rem;"></i>
-              <div class="fw-semibold text-white" style="font-size:1.25rem;">Profissionais Experts</div>
-              <div class="text-secondary" style="font-size:1rem;">Técnica e estilo</div>
+              <div class="fw-semibold text-white" style="font-size:1.25rem;">Experts professionals</div>
+              <div class="text-secondary" style="font-size:1rem;">Style and Technique</div>
             </div>
           </div>
           <div class="col-6 col-md-3">
             <div class="p-3">
               <i class="fa-solid fa-couch mb-3 diferencial-icone" style="color:#daa520; font-size:3.2rem;"></i>
-              <div class="fw-semibold text-white" style="font-size:1.25rem;">Ambiente Exclusivo</div>
-              <div class="text-secondary" style="font-size:1rem;">Conforto e privacidade</div>
+              <div class="fw-semibold text-white" style="font-size:1.25rem;">Exclusive enviroment</div>
+              <div class="text-secondary" style="font-size:1rem;">Confort and Privacy</div>
             </div>
           </div>
           <div class="col-6 col-md-3">
             <div class="p-3">
               <i class="fa-solid fa-star mb-3 diferencial-icone" style="color:#daa520; font-size:3.2rem;"></i>
-              <div class="fw-semibold text-white" style="font-size:1.25rem;">Excelência</div>
-              <div class="text-secondary" style="font-size:1rem;">Detalhes que fazem diferença</div>
+              <div class="fw-semibold text-white" style="font-size:1.25rem;">Excellence</div>
+              <div class="text-secondary" style="font-size:1rem;">Details that make difference</div>
             </div>
           </div>
         </div>
@@ -190,11 +190,10 @@
         <div class="d-flex align-items-center mb-3">
           <div style="width:7px; height:60px; background:#daa520; border-radius:4px; margin-right:18px;"></div>
           <h2 class="fw-bold mb-0"
-            style="font-family: 'Yellowtail', cursive; font-size: 3rem; color: #daa520; letter-spacing: 2px;">Como é o
-            nosso Espaço?</h2>
+            style="font-family: 'Yellowtail', cursive; font-size: 3rem; color: #daa520; letter-spacing: 2px;">How is our area?</h2>
         </div>
         <p class="fs-2 text-white mb-4" style="font-family: 'Arapey', serif; max-width: 500px; opacity: 0.96;">
-          Um ambiente pensado para relaxar, curtir e se sentir em casa. Modernidade, lazer e conforto em cada detalhe.
+          An environment designed for relaxation, enjoyment, and feeling at home. Modernity, leisure, and comfort in every detail.
         </p>
       </div>
 
@@ -205,8 +204,8 @@
               style="background: rgba(20,20,20,0.7); border: 2px solid #daa520;">
               <i class="fa-solid fa-couch mb-3" style="color:#daa520; font-size:2.5rem;"></i>
               <div class="fw-semibold text-white" style="font-family: 'Archivo Narrow', sans-serif; font-size:1.15rem;">
-                Lounge Aconchegante</div>
-              <div class="text-secondary" style="font-family: 'Arapey', serif; font-size:1rem;">Relaxe antes do atendimento</div>
+                Cozy lounge</div>
+              <div class="text-secondary" style="font-family: 'Arapey', serif; font-size:1rem;">Relax before the service</div>
             </div>
           </div>
           <div class="col-6">
@@ -214,8 +213,8 @@
               style="background: rgba(20,20,20,0.7); border: 2px solid #daa520;">
               <i class="fa-solid fa-tv mb-3" style="color:#daa520; font-size:2.5rem;"></i>
               <div class="fw-semibold text-white" style="font-family: 'Archivo Narrow', sans-serif; font-size:1.15rem;">
-                TV & Entretenimento</div>
-              <div class="text-secondary" style="font-family: 'Arapey', serif; font-size:1rem;">Momentos de lazer</div>
+                TV & Entertainment</div>
+              <div class="text-secondary" style="font-family: 'Arapey', serif; font-size:1rem;">Leisure moments</div>
             </div>
           </div>
           <div class="col-6">
@@ -223,8 +222,8 @@
               style="background: rgba(20,20,20,0.7); border: 2px solid #daa520;">
               <i class="fa-solid fa-beer-mug-empty mb-3" style="color:#daa520; font-size:2.5rem;"></i>
               <div class="fw-semibold text-white" style="font-family: 'Archivo Narrow', sans-serif; font-size:1.15rem;">
-                Cerveja Gelada</div>
-              <div class="text-secondary" style="font-family: 'Arapey', serif; font-size:1rem;">Cortesia especial</div>
+                Cold beer</div>
+              <div class="text-secondary" style="font-family: 'Arapey', serif; font-size:1rem;">Special courtesy</div>
             </div>
           </div>
           <div class="col-6">
@@ -232,8 +231,8 @@
               style="background: rgba(20,20,20,0.7); border: 2px solid #daa520;">
               <i class="fa-solid fa-gamepad mb-3" style="color:#daa520; font-size:2.5rem;"></i>
               <div class="fw-semibold text-white" style="font-family: 'Archivo Narrow', sans-serif; font-size:1.15rem;">
-                Espaço para Jogos</div>
-              <div class="text-secondary" style="font-family: 'Arapey', serif; font-size:1rem;">Diversão garantida</div>
+                Gaming space</div>
+              <div class="text-secondary" style="font-family: 'Arapey', serif; font-size:1rem;">Guaranteed fun</div>
             </div>
           </div>
         </div>
@@ -271,3 +270,4 @@
 
 </body>
 </html>
+
